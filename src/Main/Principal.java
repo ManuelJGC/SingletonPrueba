@@ -3,7 +3,8 @@ package Main;
 public class Principal {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        PruebaSingleton pruebaSingleton = PruebaSingleton.newInstancia();
+        pruebaSingleton.pruebaSingleton("Manuel");
 
     }
 

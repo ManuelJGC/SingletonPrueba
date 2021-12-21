@@ -19,4 +19,11 @@ public class PruebaSingleton {
     }
     return instancia;
 }
+    public String getNombrePersona() {
+        return nombrePersona;
+    }
+    
+    public void setNombrePersona() {
+        this.nombrePersona=nombrePersona;
+    }
 }
